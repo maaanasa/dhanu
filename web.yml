@@ -7,4 +7,4 @@
        name: start webserver
        service:
        name: apache2
-       state: startedgit commit -m 
+       state: started
