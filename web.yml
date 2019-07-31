@@ -1,0 +1,10 @@
+---
+ - hosts: all
+ become : yes
+ tasks: 
+ - name: install webserver
+ apt:
+ name: start webserver
+ service:
+ name: apache2
+ state: startedgit commit -m 
